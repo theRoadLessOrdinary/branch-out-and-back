@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+
+	<name>Branch Out and Back</name>
+	<id>maps_edge.branch_out_and_back</id>
+
+	<effect needs-live-preview="false">
+		<object-type>path</object-type>
+		<effects-menu>
+			<submenu name="Map's Edge Tools" translatable="no">
+				<submenu name="Embroidery" translatable="no">
+					<submenu name="Stitch Paths" translatable="no" />
+				</submenu>
+			</submenu>
+		</effects-menu>
+	</effect>
+
+	<script>
+		<command location="inx" interpreter="python">branch_out_and_back.py</command>
+	</script>
+
+</inkscape-extension>
